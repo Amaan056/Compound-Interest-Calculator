@@ -1,0 +1,87 @@
+#Interest-Calculator{
+    background-color: rgba(231, 155, 24, 0.733);
+    border: 5px solid gray;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#Interest-Calculator .input-block{
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+#Calculate{
+    width: 100px;
+    height:30px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+#Calculate:hover{
+    background-color: rgb(155, 222, 222);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+#Interest-Rate{
+    width: 150px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+#Years{
+    width: 150px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+#Compound-Frequency{
+    width: 160px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+
+}
+#Principal-amount{
+    width: 150px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+#Contribution{
+    width: 150px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+#result{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+.input-block {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.input-block label {
+    flex : 1;
+    text-align: left;
+}
+.input-block input, .input-block select {
+    flex : 1;
+    padding: 5px;
+    border: 1px solid #ac3b3b;
+    border-radius: 5px;
+}

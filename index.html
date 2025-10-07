@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Interest Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="Interest-Calculator">
+        <h2>Compound Interest Calculator</h2>
+        <div class="input-block">
+            <label for="Principal amount">Principal Amount (P) :</label>
+            <input type="text" id="Principal-amount" name="Principal amount">
+        </div>
+
+        <div class="input-block">
+            <label for="Contribution">Contribution (PMT) :</label>
+            <input type="text" id="Contribution" name="Contribution">
+        </div>
+
+        <div class="input-block">
+            <label for="Interest Rate">Interest Rate (R) :</label>
+            <input type="text" id="Interest-Rate" name="Interest Rate">
+        </div>
+
+        <div class="input-block">
+            <label for="Years">Years (T) :</label>
+            <input type="text" id="Years" name="Years">
+        </div>
+        <div class="input-block">
+            <label for="Compound Frequency">Compound Frequency (T) :</label>
+            <select name="Compound Frequency" id="Compound-Frequency">
+                <option value="365">Daily</option>
+                <option value="12" selected="selected">Monthly</option>
+                <option value="1">Annually</option>
+            </select>
+        </div>
+
+        <button id="Calculate">Calculate</button>
+        <div id="result">0</div>
+        <div>
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="interest_calculator.js"></script>
+</body>
+
+</html>
